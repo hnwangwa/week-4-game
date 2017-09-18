@@ -1,0 +1,20 @@
+#title {
+	font-family: 'Princess Sofia', cursive;
+	text-align: center;
+}
+
+.instructions {
+	font-family: 'Amatic SC', cursive;
+}
+
+.panel {
+	margin-top: 30px;
+}
+
+.gem-pics {
+	margin-left: 350px;
+}
+
+#garnet, #amethyst, #pearl {
+	margin-right: 10px;
+}

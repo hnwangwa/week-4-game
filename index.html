@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Gems</title>
+<!-- Linking CSS -->
+<link rel="stylesheet" href="assets/css/style.css">
+<!-- Google fonts -->
+<link href="https://fonts.googleapis.com/css?family=Princess+Sofia" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+<!-- Linking Bootstrap CDN -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+</head>
+<body>
+	<h1 id="title">Crystal Gems Collector!</h1>
+
+<div class="container">
+
+	<div class="row">
+		<div class="col-md-3">
+			<h3 class="instructions"><strong>How to Play:</strong> You will be given a target number at the start of the game. This number is chosen at random.</h3>
+				</div>
+		<div class="col-md-3">
+			<h3 class="instructions">There are four crystal gems below. By clicking on a gem, you will add a specific amount of points to your total score. Here's the catch: you won't know this amount until <strong>after</strong> you click on a gem.</h3>
+				</div>
+		<div class="col-md-3">
+			<h3 class="instructions">You win the game by matching your total score to the target number. You lose if your total score goes above the target number. Choose your gems wisely...</h3>
+				</div>
+		<div class="col-md-3">
+			<h3 class="instructions">The values of each gem will reset and randomly regenerate each time the game restarts, so with each turn you will need to tweak your strategy. Good luck!</h3>
+				</div>
+			</div>
+	<div class="row">
+		<div class="col-md-4 panel panel-default">
+			<div class="panel-heading">
+	    		<h3 class="panel-title">Target Number:</h3>
+	  				</div>
+	  			<div class="panel-body target-number"> <!-- This will be populated with the random number -->
+  			</div>
+	</div>
+		<div class="col-md-4 panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">Your Score:</h3>
+					</div>
+				<div class="panel-body user-score"> <!-- Gem values will print here and be added using some calculator logic! -->0
+			</div>
+		</div>
+		<div class="col-md-4 panel panel-default tally">
+			<div class="panel-body">
+				<p class="result"></p> <!-- This will be populated with "You Win!" or "You Lose!" text -->
+				<p class="wins"> Wins: </p>
+				<p class="losses"> Losses: </p>
+   		</div>
+   	</div>
+   </div>
+ </div>
+   	<div class="row">
+   		<div class="gem-pics">
+   		<img id ="garnet" src="assets/images/garnet.png">
+   		<img id ="amethyst" src="assets/images/amethyst.png">
+   		<img id ="pearl" src="assets/images/pearl.png">
+   		<img id="rose-quartz" src="assets/images/rose-quartz.png">
+	</div>
+</div>
+
+</div>
+
+
+</body>
+</html>
